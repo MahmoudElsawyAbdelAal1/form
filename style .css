@@ -1,0 +1,45 @@
+body{
+background: linear-gradient(#111, #222);
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+overflow:hidden;
+
+}
+
+form{
+background-color:purple;
+width: 50%;
+padding: 10px;
+display: grid;
+grid-template-columns: repeat(1,1fr);
+flex-wrap: wrap;
+gap: 5px;
+
+}
+
+
+form input{
+
+background-color:#fff;
+outline: none;
+border: none;
+color: black;
+padding: 5px 10px;
+flex-basis: 200px;
+flex-grow: 1;
+}
+
+form button{
+
+background-color: #14a;
+color: white;
+padding: 5px 10px;
+border: none;
+cursor: pointer;
+flex-basis: 30px;
+flex-grow: 1;
+
+
+}
